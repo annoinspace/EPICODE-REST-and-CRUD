@@ -141,7 +141,7 @@
           const endpoint = productId
             ? (`https://striveschool-api.herokuapp.com/api/product/${productId}`,
               opt)
-            : ("https://striveschool-api.herokuapp.com/api/product/", opt)
+            : "https://striveschool-api.herokuapp.com/api/product/"
 
           const response = await fetch(endpoint, options)
 
