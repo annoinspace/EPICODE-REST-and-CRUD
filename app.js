@@ -31,8 +31,8 @@ function renderProducts(listOfProducts) {
     productCard.innerHTML = `<div class="card" style="width: 18rem;">
     <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}">
     <div class="card-body">
-      <p class="card-text">${product.name}</p>
-      <p class="card-text">${product.description}</p>
+      <h4 class="card-text text-center">${product.name}</h4>
+      <p class="card-text text-center">${product.description}</p>
     </div>
   </div>`
 
