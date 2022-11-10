@@ -71,4 +71,5 @@ window.onload = async () => {
 // window.onload = async () => {
 //   const product = await getProduct()
 //   renderProduct(product)
+
 // }
